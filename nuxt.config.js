@@ -30,20 +30,24 @@ export default defineNuxtConfig({
   //     id: 'G-VC837F6PL5', // Replace with your actual Google Analytics Measurement ID
   //   },
   // },
-  head: {
-    script: [
-      { src: 'https://www.googletagmanager.com/gtag/js?id=G-VC837F6PL5', async: true },
-      {
-        innerHTML: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-VC837F6PL5');
-        `,
-        type: 'text/javascript'
+  app: {
+    head: {
+      script: [
+        { src: 'https://www.googletagmanager.com/gtag/js?id=G-VC837F6PL5', async: true },
+        {
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VC837F6PL5');
+          `,
+          type: 'text/javascript'
+        }
+      ],
+      __dangerouslyDisableSanitizersByTagID: {
+        'gtag-inline': ['innerHTML']
       }
-    ],
-    __dangerouslyDisableSanitizers: ['script']
+    }
   },
 
   facebook: {
