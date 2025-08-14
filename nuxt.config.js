@@ -25,10 +25,25 @@ export default defineNuxtConfig({
   i18n: {
     vueI18n: './i18n.config.js' // if you are using custom path, default 
   },
-  gtag: {
-    property: {
-      id: 'G-VC837F6PL5', // Replace with your actual Google Analytics Measurement ID
-    },
+  // gtag: {
+  //   property: {
+  //     id: 'G-VC837F6PL5', // Replace with your actual Google Analytics Measurement ID
+  //   },
+  // },
+  head: {
+    script: [
+      { src: 'https://www.googletagmanager.com/gtag/js?id=G-VC837F6PL5', async: true },
+      {
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-VC837F6PL5');
+        `,
+        type: 'text/javascript'
+      }
+    ],
+    __dangerouslyDisableSanitizers: ['script']
   },
 
   facebook: {

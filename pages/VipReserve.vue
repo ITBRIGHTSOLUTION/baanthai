@@ -58,7 +58,7 @@
               </div>
               <div class="flex xl:col-span-6 items-center xl:px-4 mb-3 xl:mb-0">
                 <img src="../assets/images/vip-resources.webp" alt="resources-icon" class="mr-5 xl:mr-2 w-[25px] h-[25px]">
-                <p>Air Conditioned, Equipped with Karaoke System, Tatami Style (not recommended for elderly)</p>
+                <p>Air Conditioned, without karaoke, Tatami Style (not recommended for elderly)</p>
               </div>
               <div class="flex xl:col-span-3 items-center xl:justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-5 xl:mr-2 w-[25px] h-[25px]">
@@ -84,7 +84,7 @@
               </div>
               <div class="flex xl:col-span-6 items-center xl:px-4 mb-3 xl:mb-0">
                 <img src="../assets/images/vip-resources.webp" alt="resources-icon" class="mr-5 xl:mr-2 w-[25px] h-[25px]">
-                <p>Equipped with karaoke system, Pool Table, Bar Table, Sofa Area</p>
+                <p>without karaoke, Pool Table, Bar Table, Sofa Area</p>
               </div>
               <div class="flex xl:col-span-3 items-center xl:justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-5 xl:mr-2 w-[25px] h-[25px]">
@@ -110,7 +110,7 @@
               </div>
               <div class="flex xl:col-span-6 items-center xl:px-4 mb-3 xl:mb-0">
                 <img src="../assets/images/vip-resources.webp" alt="resources-icon" class="mr-5 xl:mr-2 w-[25px] h-[25px]">
-                <p>Air Conditioned, Equipped with karaoke system, Pool table, In-door
+                <p>Air Conditioned, without karaoke, Pool table, In-door
                   dining and out-door area. Balcony view. (not recommended for elderly)</p>
               </div>
               <div class="flex xl:col-span-3 items-center xl:justify-end">
