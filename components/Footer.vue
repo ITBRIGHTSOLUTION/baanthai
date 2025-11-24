@@ -46,7 +46,8 @@
           <p class="text-base lg:text-lg font-normal mb-4 lg:mb-6">{{ $t('quickContact') }}</p>
           <div class="grid grid-cols-2">
             <div class="text-xs lg:text-base">
-              <p class="text-yellow font-medium">Baan Thai 1 Restaurant Sdn Bhd</p>
+              <p class="text-yellow font-medium">Baan Thai @ Pudu Ulu</p>
+              <p class="text-sm font-normal" style="color: #f4f4f4">Baan Thai 1 Restaurant Sdn Bhd</p>
               <p class="text-xs font-normal" style="color: #f4f4f4">(1368888-K)</p>
               <div>12.00pm - 4.30am daily</div>
               <a href="tel:018-911 6315" class="hover:underline">018-911 6315</a>
@@ -73,7 +74,8 @@
               </div>
             </div> -->
             <div class="text-xs lg:text-base px-1">
-              <p class="text-yellow font-medium">Baan Thai 2 Seafood & Thai Cuisine Sdn Bhd</p>
+              <p class="text-yellow font-medium">Baan Thai @ Kuchai Lama</p>
+              <p class="text-sm font-normal" style="color: #f4f4f4">Baan Thai 2 Seafood & Thai Cuisine Sdn Bhd</p>
               <p class="text-xs font-normal" style="color: #f4f4f4">(1265400-P)</p>
               <div>12.30pm - 2.30am daily</div>
               <a href="tel:018-315 3323" class="hover:underline">018-315 3323</a>
