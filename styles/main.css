@@ -812,7 +812,7 @@ div.eapps-widget {
   background-color: #5C1F1F;
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/images/cny/CNY-ELEMENTS-16.png");
+  background-image: url("../assets/images/cny/CNY-ELEMENTS-16.webp");
   background-color: #5C1F1F;
   background-position: center;
   background-repeat: repeat;
@@ -821,7 +821,7 @@ div.eapps-widget {
 
 /* Box 1: Header and Dishes */
 .cny-box-1 {
-  background-image: url("../assets/images/cny/CNY-ELEMENTS-03.png");
+  background-image: url("../assets/images/cny/CNY-ELEMENTS-03.webp");
   background-color: #5C1F1F;
   background-position: center;
   background-repeat: repeat;
