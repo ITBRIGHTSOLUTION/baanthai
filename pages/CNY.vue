@@ -39,7 +39,7 @@
       <div class="relative max-w-[40rem] mx-auto">
         <img src="../assets/images/cny/CNY-ELEMENTS-09.webp" alt="Menu Items" class="w-full" />
         <div class="px-6 py-16 absolute top-2 sm:top-16 left-2 right-0 mx-auto">
-          <h3 class="text-center sm:text-xl uppercase text-white montserrat mb-2 sm:mb-5 font-[600]">Set A (8-10 Pax) - 马上旺起来</h3>
+          <h3 class="text-center sm:text-xl uppercase text-white montserrat mb-2 sm:mb-5 font-[600]">Set A (8-10 Pax)</h3>
           <!-- Menu Items Grid -->
           <div class="grid grid-cols-2 gap-0 sm:gap-2 sm:px-5">
             <!-- Left Column -->
@@ -129,7 +129,7 @@
                 <span class="cny-menu-number-new">12</span>
                 <div class="cny-menu-text-new">
                   <div class="cny-menu-chinese">五谷丰登白米饭</div>
-                  <div class="cny-menu-english">White Rice (10)</div>
+                  <div class="cny-menu-english">White Rice</div>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@
       <div class="relative max-w-[40rem] mx-auto">
         <img src="../assets/images/cny/CNY-ELEMENTS-10.webp" alt="Menu Items" class="w-full" />
         <div class="px-6 py-16 absolute top-1 sm:top-14 left-2 right-0 mx-auto">
-          <h3 class="text-center sm:text-xl uppercase text-white montserrat mb-2 sm:mb-5 font-[600]">Set B (11-15 Pax) - 泰旺一整年</h3>
+          <h3 class="text-center sm:text-xl uppercase text-white montserrat mb-2 sm:mb-5 font-[600]">Set B (11-15 Pax)</h3>
           <!-- Menu Items Grid -->
           <div class="grid grid-cols-2 gap-0 sm:gap-2 sm:px-5">
             <!-- Left Column -->
@@ -244,14 +244,14 @@
                 <span class="cny-menu-number-new">14</span>
                 <div class="cny-menu-text-new">
                   <div class="cny-menu-chinese">甜蜜团圆桂圆甜</div>
-                  <div class="cny-menu-english">Dessert Longan (15)</div>
+                  <div class="cny-menu-english">Dessert Longan</div>
                 </div>
               </div>
               <div class="cny-menu-item-new">
                 <span class="cny-menu-number-new">15</span>
                 <div class="cny-menu-text-new">
                   <div class="cny-menu-chinese">五谷丰登白米饭</div>
-                  <div class="cny-menu-english">White Rice (15)</div>
+                  <div class="cny-menu-english">White Rice</div>
                 </div>
               </div>
             </div>
@@ -382,8 +382,8 @@
               class="w-full"
             >
             <div class="absolute bottom-[.8rem] sm:bottom-[1.4rem] w-full text-center text-white montserrat">
-              <h3 class="mb-1 text-sm sm:text-xl font-bold">鸿运叠香黄金蛋</h3>
-              <p class="m-0 text-[.7rem] sm:text-[0.8rem] text-[#601300] font-[600] mb-1">Golden Fortune Omelette</p>
+              <h3 class="mb-1 text-sm sm:text-xl font-bold">春风得意炒通菜</h3>
+              <p class="m-0 text-[.7rem] sm:text-[0.8rem] text-[#601300] font-[600] mb-1">Stir Fried Water Spinach Thai Style</p>
             </div>
           </div>
           <div class="relative">
@@ -404,8 +404,8 @@
               class="w-full"
             >
             <div class="absolute bottom-[.8rem] sm:bottom-[1.4rem] w-full text-center text-white montserrat">
-              <h3 class="mb-1 text-sm sm:text-xl font-bold">春风得意炒通菜</h3>
-              <p class="m-0 text-[.7rem] sm:text-[0.8rem] text-[#601300] font-[600] mb-1">Stir Fried Water Spinach Thai Style</p>
+              <h3 class="mb-1 text-sm sm:text-xl font-bold">鸿运叠香黄金蛋</h3>
+              <p class="m-0 text-[.7rem] sm:text-[0.8rem] text-[#601300] font-[600] mb-1">Golden Fortune Omelette</p>
             </div>
           </div>
           <div class="relative">
