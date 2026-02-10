@@ -341,6 +341,6 @@ const redirectToCNYPage = () => {
     link_type: 'internal',
     action: 'redirect'
   })
-  window.location.href = '/CNY'
+  window.location.href = '/CNY' 
 }
 </script>
