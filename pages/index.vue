@@ -337,10 +337,10 @@ const handleVipReservation = () => {
 
 const redirectToCNYPage = () => {
   trackButtonClick('cny_banner_click', {
-    destination_url: '/cny',
+    destination_url: '/CNY',
     link_type: 'internal',
     action: 'redirect'
   })
-  window.location.href = '/cny'
+  window.location.href = '/CNY'
 }
 </script>
