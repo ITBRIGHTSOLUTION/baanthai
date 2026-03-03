@@ -17,7 +17,6 @@
         class="mySwiper"
       >
         <swiper-slide>
-          <img src="../assets/images/cny/cny_web_banner.webp" alt="" class="w-full cursor-pointer" @click="redirectToCNYPage">
           <!-- <img src="../assets/images/MIX&MATCH-SLIDER-01.webp" alt="" class="w-full"> -->
           <!-- <img src="../assets/images/BT-CNY-HOMEPAGE-01.webp" alt="" class="w-full"> -->
           <div class="swiper-button text-xs md:text-xl lg:text-3xl font-medium text-white text-center mx-auto">
@@ -333,14 +332,5 @@ const handleVipReservation = () => {
     link_type: 'external',
     action: 'redirect'
   })
-}
-
-const redirectToCNYPage = () => {
-  trackButtonClick('cny_banner_click', {
-    destination_url: '/CNY',
-    link_type: 'internal',
-    action: 'redirect'
-  })
-  window.location.href = '/CNY' 
 }
 </script>
