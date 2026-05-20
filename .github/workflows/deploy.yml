@@ -24,10 +24,13 @@ jobs:
         run: yarn generate
         
       - name: Deploy to Hostinger
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_path: ./.output/public/*
-          remote_path: /
+          local-dir: ./.output/public/
+          server-dir: /
+          protocol: ftp
+          port: 21
+          timeout: 60000
