@@ -49,7 +49,7 @@
               <p class="text-yellow font-medium">Baan Thai @ Pudu Ulu</p>
               <p class="text-sm font-normal" style="color: #f4f4f4">Baan Thai 1 Restaurant Sdn Bhd</p>
               <p class="text-xs font-normal" style="color: #f4f4f4">(1368888-K)</p>
-              <div>12.00pm - 4.30am daily</div>
+              <div>12.00pm - 4.30am | Closed on Wednesday</div>
               <a href="tel:018-911 6315" class="hover:underline">018-911 6315</a>
               <div class="flex mt-2 mb-5 px-1">
                 <a href="https://www.facebook.com/BaanThaiRestaurantCheras/" target="_blank">
