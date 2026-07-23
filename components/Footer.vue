@@ -7,11 +7,8 @@
             <img src="../assets/images/Baan_Thai_Logo.webp" alt="" class="max-w-[250px] w-full lg:w-auto mx-auto mb-3" />
           </nuxt-link>
           <div>
-            <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-              <button class="bg-lightgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
-                {{ $t('header5') }}
-              </button>
-            </a>
+            <OnlineOrderDropdown
+              button-class="bg-lightgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]" />
             
           </div>
           <div>
@@ -97,7 +94,7 @@
       <div class="lg:mx-52 text-xs md:text-sm lg:text-base text-center">
         <ul class="font-thin mt-4 rounded-lg md:mt-0 flex justify-center">
           <li class="border-r px-2 md:px-16">
-            <nuxt-link class="nav-link" @click.once="handleOnlineOrder" to="https://bit.ly/BTwebOO" exact-active-class="active" target="_blank">{{ $t('onlineOrder') }}</nuxt-link>
+            <OnlineOrderDropdown button-class="nav-link" :label="$t('onlineOrder')" />
           </li>
           <li class="border-r px-2 md:px-16">
             <nuxt-link class="nav-link" @click.once="handleVipReservation" to="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12" exact-active-class="active">{{ $t('onlineReservation') }}</nuxt-link>
@@ -118,14 +115,6 @@
 
 <script setup>
 const { trackButtonClick } = useButtonTracking()
-
-const handleOnlineOrder = () => {
-  trackButtonClick('online_order_button', {
-    destination_url: 'https://bit.ly/BTwebOO',
-    link_type: 'external',
-    action: 'redirect'
-  })
-}
 
 const handleVipReservation = () => {
   trackButtonClick('vip_reservation_button', {

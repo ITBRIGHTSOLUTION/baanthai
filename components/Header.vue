@@ -7,9 +7,8 @@
         </nuxt-link>
 
         <div class="flex items-center justify-center">
-          <a href="https://bit.ly/BTwebOO" target="_blank" @click.once="handleOnlineOrder">
-            <button class="lg:hidden rounded-full text-white text-xs bg-lightgold px-4 py-2 mx-2">{{ $t('header5') }}</button>
-          </a>
+          <OnlineOrderDropdown
+            button-class="lg:hidden rounded-full text-white text-xs bg-lightgold px-4 py-2 mx-2" />
 
           <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-lightgold rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" 
             aria-controls="navbar-default" aria-expanded="false" @click="toggleMenu">
@@ -48,9 +47,8 @@
             <a href="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12" @click.once="handleVipReservation" target="_blank">
               <button class="rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2 my-3 lg:my-0">{{ $t('header4') }}</button>
             </a>
-            <a href="https://bit.ly/BTwebOO" target="_blank" @click.once="handleOnlineOrder">
-              <button class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2">{{ $t('header5') }}</button>
-            </a>
+            <OnlineOrderDropdown
+              button-class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2" />
           </div>
           <select v-model="locale" class="selectbox">
             <option value="en">English</option>
@@ -81,14 +79,6 @@ const handleClickPoint = () => {
 const handleVipReservation = () => {
   trackButtonClick('vip_reservation_button', {
     destination_url: 'https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12',
-    link_type: 'external',
-    action: 'redirect'
-  })
-}
-
-const handleOnlineOrder = () => {
-  trackButtonClick('online_order_button', {
-    destination_url: 'https://bit.ly/BTwebOO',
     link_type: 'external',
     action: 'redirect'
   })
