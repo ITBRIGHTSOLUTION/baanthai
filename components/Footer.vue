@@ -75,7 +75,7 @@
               <p class="text-sm font-normal" style="color: #f4f4f4">Baan Thai 2 Seafood & Thai Cuisine Sdn Bhd</p>
               <p class="text-xs font-normal" style="color: #f4f4f4">(1265400-P)</p>
               <div>12.30pm - 12.30am daily</div>
-              <a href="tel:018-315 3323" class="hover:underline">018-315 3323</a>
+              <a href="tel:018-315 3323" class="hover:underline">018-315 3323</a> 
               <div class="flex mt-2 mb-5">
                 <a href="https://www.facebook.com/baanthai2thaicuisinekuchailama" target="_blank">
                   <img src="../assets/images/facebook.webp" alt="" class="invert w-[20px] mr-5">
